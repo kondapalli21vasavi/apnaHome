@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+#loginformbody{
+    
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    
+}
+
+#Loginform{
+    width: 35%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin-top: 150px;
+}
+
+#Loginbtn{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, black 0%, grey 50%, black 100%);
+}
+
+.form-control{
+    color: rgba(0, 0, 0, .87);
+    border-bottom-color: rgba(0, 0, 0, .42);
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+}
+
+@media only screen and (max-width:700px){
+    #Loginform{
+        width: 100% !important;
+    }
+}

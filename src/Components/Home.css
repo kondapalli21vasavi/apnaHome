@@ -1,0 +1,167 @@
+.Header {
+    background-color: rgb(96, 131, 235);
+    text-align: center;
+}
+
+.btn {
+    background-color: black;
+    border-radius: 27px;
+}
+
+.Home {
+    /* background-color: aliceblue; */
+    background: linear-gradient(to bottom, rgb(96, 131, 235),white);
+    height: 100%;
+}
+
+#navbarSupportedContent {
+    padding: 15px;
+}
+
+.btn {
+    padding: 13px;
+    font-weight: 500;
+    color: white;
+}
+
+.Hero-content {
+    font-size: 63px;
+}
+
+.Hero-content-1 {
+    font-size: 23px;
+}
+
+#Hero-image {
+    height: 500px;
+    border-radius: 30px;
+}
+
+#Hero-search {
+    background-color: rgb(62, 62, 233);
+}
+
+#emailInput {
+    border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+    #Hero-image {
+        margin-top: 25px;
+        max-width: 90%;
+        /* Adjust the max-width to your desired size */
+    }
+}
+
+.Section {
+    background-color: rgb(88, 66, 233);
+    padding: 25px;
+}
+
+.Section-content {
+    margin-top: 100px;
+}
+
+#Section-1-image {
+    width: auto;
+    height: 300px;
+    border-radius: 30px;
+    /* margin-left: 150px; */
+}
+
+@media (max-width: 768px) {
+    #Section-1-image {
+        margin-top: 25px;
+        max-width: 90%;
+        /* Adjust the max-width to your desired size */
+    }
+}
+
+#Section-2-image {
+    width: auto;
+    height: 300px;
+    border-radius: 30px;
+    /* margin-left: 150px; */
+}
+
+@media (max-width: 768px) {
+    #Section-2-image {
+        margin-top: 25px;
+        max-width: 90%;
+        /* Adjust the max-width to your desired size */
+    }
+}
+
+.Section-2-content {
+    margin-top: 90px;
+}
+
+.Features {
+    margin-bottom: 100px;
+}
+
+
+.Testimonials {
+    margin-bottom: 80px;
+}
+
+.Testimonials-content {
+    margin-top: 60px;
+}
+
+.Testimonials-card {
+    display: inline-block;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 120px;
+}
+
+#Testimonials-image {
+    width: auto;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.card-content {
+    margin-left: 100px;
+}
+
+@media (max-width:768px) {
+    #Testimonilas-image {
+        margin-left: 0px;
+        max-width: 90%;
+    }
+
+    .card-content {
+        margin-left: 0px;
+    }
+
+    .Testimonials-card {
+        margin-left: 0px;
+    }
+}
+
+.Informed-container {
+    background:rgb(96, 131, 235);
+    border-radius: 15px;
+}
+
+.Informed-content {
+    margin-top: 110px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.Informed-content-1 {
+    font-size: large;
+}
+
+.Link {
+    color: white;
+    text-decoration: none;
+}
+
+.Link:hover {
+    color: black;
+}
